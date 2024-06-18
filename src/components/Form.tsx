@@ -104,7 +104,6 @@ export const Form = ({
     formData.append('position_id', data.position_id);
   
     setIsProcessing(true);
-    console.log(formData);
 
     try {
       const response = await axios.post(BASE_USERS_URL, formData, {
@@ -113,7 +112,6 @@ export const Form = ({
           'Content-Type': 'multipart/form-data',
         }
       });
-      console.log(response);
       setIsProcessing(false);
       clearToken();
       setFormSubmited(true);
