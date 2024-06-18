@@ -1,0 +1,8 @@
+@import 'normalize.css';
+@import './variables.scss';
+
+:root {
+  width: 100%;
+  background-color: $background-color;
+  scroll-behavior: smooth;
+}

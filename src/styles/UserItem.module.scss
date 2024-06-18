@@ -1,0 +1,41 @@
+.userItem {
+  display: flex;
+  height: 254px;
+  width:100%;
+  flex-direction: column;
+  padding: 20px;
+  box-sizing: border-box;
+  align-items: center;
+  background-color: white;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  border-radius: 16px;
+}
+
+.userText {
+  width: 100%;
+  height: 26px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  text-align: center;
+}
+
+.userImage {
+  background-image:url('../../public/photo-cover.svg');
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  margin-bottom: 3px;
+  user-select: none;
+  color: rgba(0, 0, 0, 0);
+}
+
+.userDescription{
+  margin-top: 5px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  line-height: 26px;
+  width: 100%;
+}

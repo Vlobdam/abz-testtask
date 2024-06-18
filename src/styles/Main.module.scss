@@ -1,0 +1,35 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto;
+  gap: 139px;
+}
+
+.block {
+  display: flex;
+  width: 100%;
+  max-width: 1170px;
+  box-sizing: border-box;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 16px;
+  gap: 50px;
+  text-align: center;
+  
+  & > h1 {
+    width: 95%;
+  }
+
+  @media screen and (min-width: 768px) {
+    padding: 0 32px;
+  }
+
+  @media screen and (min-width: 1024px) {
+    padding: 0 60px;
+  }
+}
+

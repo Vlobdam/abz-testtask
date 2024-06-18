@@ -1,0 +1,33 @@
+@import './variables.scss';
+
+.button {
+  height:34px;
+  width: 100px;
+  border-radius: 40px;
+  border: 0px;
+
+  &-primary {
+    background-color: $color-primary;
+
+    &:hover {
+      background-color: lighten($color-primary, 10%);
+    }
+  }
+
+  &-secondary {
+    background-color: $color-secondary;
+
+    &:hover {
+      background-color: lighten($color-secondary, 10%);
+    }
+  }
+
+  &-disabled {
+    background-color: $button-disabled;
+    color: white;
+  }
+
+  &Big {
+    width: 120px;
+  }
+}
