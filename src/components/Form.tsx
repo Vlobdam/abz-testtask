@@ -188,8 +188,7 @@ export const Form = ({
             />
 
             <p className={styles.helperText}>
-              {formState.errors.photo?.message ||
-                "Only jpg and jpeg formats are allowed."}
+              {formState.errors.photo?.message}
             </p>
           </div>
 
