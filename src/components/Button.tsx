@@ -28,7 +28,7 @@ export const Button = ({
       styles.button,
       {
         [styles[`button-${color}`]]: isActive,
-        [styles['button-disabled']]: !isActive,
+        [styles["button-disabled"]]: !isActive,
       },
       className,
     )}

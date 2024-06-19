@@ -4,7 +4,11 @@ import { Heading } from "./Heading";
 import { Text } from "./Text";
 import { Button } from "./Button";
 
-export const Banner = ({ formRef }: { formRef: React.RefObject<HTMLDivElement> }) => (
+export const Banner = ({
+  formRef,
+}: {
+  formRef: React.RefObject<HTMLDivElement>;
+}) => (
   <div className={styles.banner}>
     <div className={styles.bannerContainer}>
       <Heading>Test assignment for front-end developer</Heading>

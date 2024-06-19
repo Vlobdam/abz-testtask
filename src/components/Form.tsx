@@ -2,10 +2,7 @@ import { useToken } from "@/hooks/useToken";
 import { Heading } from "./Heading";
 import { useEffect, useState } from "react";
 import { Position } from "@/types/Position";
-import {
-  BASE_POSITIONS_URL,
-  BASE_USERS_URL,
-} from "@/consts";
+import { BASE_POSITIONS_URL, BASE_USERS_URL } from "@/consts";
 import axios from "axios";
 import styles from "@/styles/Form.module.scss";
 import { useForm } from "react-hook-form";

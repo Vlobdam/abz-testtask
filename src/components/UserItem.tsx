@@ -30,7 +30,11 @@ export const UserItem = ({ user }: { user: User }) => (
       {user.name}
     </Text>
 
-    <Tooltip id={`${user.id}-name`} className={nunito.className} place="bottom" />
+    <Tooltip
+      id={`${user.id}-name`}
+      className={nunito.className}
+      place="bottom"
+    />
 
     <div className={styles.userDescription}>
       {Object.entries({
@@ -47,7 +51,11 @@ export const UserItem = ({ user }: { user: User }) => (
             {key === "phone" ? getNumberString(value) : value}
           </Font>
 
-          <Tooltip id={`${user.id}-${key}`} className={nunito.className} place="bottom" />
+          <Tooltip
+            id={`${user.id}-${key}`}
+            className={nunito.className}
+            place="bottom"
+          />
         </React.Fragment>
       ))}
     </div>

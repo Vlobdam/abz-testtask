@@ -1,13 +1,12 @@
-'use client'
+"use client";
 
-import { useEffect, useRef, useState } from "react";
+import { useRef } from "react";
 import { Header } from "./Header";
 import { Main } from "./Main";
 
 export const Body = () => {
   const usersRef = useRef<HTMLDivElement>(null);
   const formRef = useRef<HTMLDivElement>(null);
-  
 
   return (
     <body>

@@ -9,7 +9,7 @@ export const TextInput = ({
   dirtyFields,
   label,
   helperText,
-} : {
+}: {
   name: string;
   register: UseFormRegister<any>;
   errors: any;

@@ -1,6 +1,5 @@
-import { ALLOWED_HEIGHT, ALLOWED_WIDTH } from '@/consts';
-import * as yup from 'yup';
-
+import { ALLOWED_HEIGHT, ALLOWED_WIDTH } from "@/consts";
+import * as yup from "yup";
 
 export const validationSchema = yup.object().shape({
   name: yup
