@@ -1,5 +1,10 @@
+import dynamic from "next/dynamic";
 import Head from "next/head";
-import { Body } from "@/components/Body";
+
+const Body = dynamic(() => import("@/components/Body")
+  .then((module) => module.Body), {
+  ssr: false,
+});
 
 export default function Home() {
   return (
